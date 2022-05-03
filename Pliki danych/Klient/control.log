@@ -1,0 +1,57 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Pn Maj 13 20:41:19 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   control.ctl
+Data File:      Klienci.csv
+  Bad File:     Klienci.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table KLIENT, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_KLIENTA                          FIRST     *   ,       CHARACTER            
+IMIE                                 NEXT     *   ,       CHARACTER            
+NAZWISKO                             NEXT     *   ,       CHARACTER            
+WIEK                                 NEXT     *   ,       CHARACTER            
+PLEC                                 NEXT     *   ,       CHARACTER            
+WZROST                               NEXT     *   ,       CHARACTER            
+
+Record 1: Rejected - Error on table KLIENT, column ID_KLIENTA.
+ORA-01722: invalid number
+
+Record 3002: Rejected - Error on table KLIENT, column ID_KLIENTA.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+
+Table KLIENT:
+  3000 Rows successfully loaded.
+  2 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  99072 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          3002
+Total logical records rejected:         2
+Total logical records discarded:        0
+
+Run began on Pn Maj 13 20:41:19 2019
+Run ended on Pn Maj 13 20:41:19 2019
+
+Elapsed time was:     00:00:00.39
+CPU time was:         00:00:00.03

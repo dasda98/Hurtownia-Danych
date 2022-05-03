@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <style>
+        #mySidenav a {
+            position: absolute; /* Position them relative to the browser window */
+            left: -80px; /* Position them outside of the screen */
+            transition: 0.3s; /* Add transition on hover */
+            padding: 15px; /* 15px padding */
+            width: 100px; /* Set a specific width */
+            text-decoration: none; /* Remove underline */
+            font-size: 20px; /* Increase font size */
+            color: white; /* White text color */
+            border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+        }
+
+        #mySidenav a:hover {
+            left: 0; /* On mouse-over, make the elements appear as they should */
+        }
+
+        /* The about link: 20px from the top with a green background */
+        #rollup {
+            top: 20px;
+            background-color: #4CAF50;
+        }
+
+        #cube {
+            top: 80px;
+            background-color: #2196F3; /* Blue */
+        }
+
+        #grouping_sets {
+            top: 140px;
+            background-color: #f44336; /* Red */
+        }
+
+        #partition {
+            top: 223px;
+            background-color: #555 /* Light Black */
+        }
+
+        #window {
+            top: 283px;
+            background-color: yellowgreen /* Light Black */
+        }
+    </style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+    <a href="/rollup_1.php" id="rollup">Rollup</a>
+    <a href="/cube_1.php" id="cube">Cube</a>
+    <a href="/grouping_sets_1.php" id="grouping_sets">Grouping sets</a>
+    <a href="/partition_1.php" id="partition">Partition</a>
+    <a href="/window_1.php" id="window">Window</a>
+</div>
+
+<div style="margin-left:125px; background-color: dimgray">
+    <h2> Coroczny zbiór danych na temat działania parku rozrywki.</h2>
+    <p>Najedź na przycisk po lewej stronie i kliknij w niego.</p>
+</div>
+
+</body>
+</html>

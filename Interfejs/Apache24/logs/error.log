@@ -1,0 +1,55 @@
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5154:249:b25b:75a5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 10 11:05:05.953896 2019] [mpm_winnt:notice] [pid 6288:tid 964] AH00455: Apache/2.4.38 (Win32) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Jun 10 11:05:05.955896 2019] [mpm_winnt:notice] [pid 6288:tid 964] AH00456: Apache Lounge VC11 Server built: Jan 21 2019 12:11:57
+[Mon Jun 10 11:05:05.955896 2019] [core:notice] [pid 6288:tid 964] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Jun 10 11:05:05.973686 2019] [mpm_winnt:notice] [pid 6288:tid 964] AH00418: Parent: Created child process 6060
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5154:249:b25b:75a5. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5154:249:b25b:75a5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 10 11:05:08.277684 2019] [mpm_winnt:notice] [pid 6060:tid 896] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 10 11:05:13.379769 2019] [mpm_winnt:notice] [pid 6288:tid 964] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 10 11:05:15.381733 2019] [mpm_winnt:notice] [pid 6060:tid 896] AH00364: Child: All worker threads have exited.
+[Mon Jun 10 11:05:16.285939 2019] [mpm_winnt:notice] [pid 6288:tid 964] AH00430: Parent: Child process 6060 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5154:249:b25b:75a5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 10 11:05:19.472940 2019] [mpm_winnt:notice] [pid 8428:tid 952] AH00455: Apache/2.4.38 (Win32) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Jun 10 11:05:19.475937 2019] [mpm_winnt:notice] [pid 8428:tid 952] AH00456: Apache Lounge VC11 Server built: Jan 21 2019 12:11:57
+[Mon Jun 10 11:05:19.475937 2019] [core:notice] [pid 8428:tid 952] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Jun 10 11:05:19.491923 2019] [mpm_winnt:notice] [pid 8428:tid 952] AH00418: Parent: Created child process 2812
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5154:249:b25b:75a5. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5154:249:b25b:75a5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 10 11:05:21.789331 2019] [mpm_winnt:notice] [pid 2812:tid 896] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 10 11:21:55.526181 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53308] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 13
+[Mon Jun 10 11:21:55.526181 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53308] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 16
+[Mon Jun 10 11:24:20.516356 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53327] mod_fcgid: stderr: PHP Warning:  oci_connect(): ORA-28000: the account is locked in C:\\Apache24\\htdocs\\phpinfo.php on line 4
+[Mon Jun 10 11:24:20.516356 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53327] mod_fcgid: stderr: PHP Fatal error:  ORA-28000: the account is locked in C:\\Apache24\\htdocs\\phpinfo.php on line 7
+[Mon Jun 10 11:24:21.499042 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53327] mod_fcgid: stderr: PHP Warning:  oci_connect(): ORA-28000: the account is locked in C:\\Apache24\\htdocs\\phpinfo.php on line 4
+[Mon Jun 10 11:24:21.499042 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53327] mod_fcgid: stderr: PHP Fatal error:  ORA-28000: the account is locked in C:\\Apache24\\htdocs\\phpinfo.php on line 7
+[Mon Jun 10 11:24:39.510230 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53334] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 15
+[Mon Jun 10 11:24:39.511251 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53334] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 18
+[Mon Jun 10 11:25:08.474149 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53340] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:25:08.474149 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53340] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:25:14.290101 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53339] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:25:14.290101 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53339] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:25:15.150663 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53339] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:25:15.150663 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53339] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:26:51.443364 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:26:51.443364 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:26:52.234187 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:26:52.235190 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:26:52.731981 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:26:52.731981 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:26:53.292432 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:26:53.292432 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:26:53.897726 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:26:53.897726 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53371] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:28:09.186099 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53389] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:28:09.186099 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:53389] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:32:31.053609 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53446] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:32:31.053609 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53446] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 11:32:58.545571 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53452] mod_fcgid: stderr: PHP Warning:  oci_execute(): ORA-00942: table or view does not exist in C:\\Apache24\\htdocs\\phpinfo.php on line 11
+[Mon Jun 10 11:32:58.545571 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:53452] mod_fcgid: stderr: PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in C:\\Apache24\\htdocs\\phpinfo.php on line 14
+[Mon Jun 10 15:39:31.764418 2019] [fcgid:warn] [pid 2812:tid 1416] [client ::1:54650] mod_fcgid: stderr: PHP Parse error:  syntax error, unexpected 'centre' (T_STRING), expecting ',' or ';' in C:\\Apache24\\htdocs\\rollup_1.php on line 15, referer: http://localhost/index.html
+[Mon Jun 10 15:39:41.374720 2019] [fcgid:warn] [pid 2812:tid 1408] [client ::1:54651] mod_fcgid: stderr: PHP Parse error:  syntax error, unexpected 'center' (T_STRING), expecting ',' or ';' in C:\\Apache24\\htdocs\\rollup_1.php on line 15, referer: http://localhost/index.html
+[Mon Jun 10 18:17:29.748633 2019] [mpm_winnt:notice] [pid 8428:tid 952] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 10 18:17:31.752808 2019] [mpm_winnt:notice] [pid 2812:tid 896] AH00364: Child: All worker threads have exited.
+[Mon Jun 10 18:17:40.123710 2019] [fcgid:error] [pid 2812] FastCGI process 7616 still did not exit, terminating forcefully
+[Mon Jun 10 18:17:41.161243 2019] [mpm_winnt:notice] [pid 8428:tid 952] AH00430: Parent: Child process 2812 exited successfully.

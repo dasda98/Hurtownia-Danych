@@ -1,0 +1,8 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Pn Mar 25 10:47:50 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+SQL*Loader-500: Unable to open file (contril.ctl)
+SQL*Loader-553: file not found
+SQL*Loader-509: System error: Nie mo¿na odnaleŸæ okreœlonego pliku.

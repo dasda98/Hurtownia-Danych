@@ -1,0 +1,9 @@
+DROP TABLE sprzeda¿biletów;
+DROP TABLE czas;
+DROP TABLE klient;
+DROP TABLE atrakcja;
+DROP TABLE kategoria;
+DROP TABLE obszar;
+DROP TABLE województwo;
+DROP TABLE kraj;
+DROP TABLE platnosc;
